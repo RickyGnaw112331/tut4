@@ -13,4 +13,11 @@ class CalcTest {
         int b = (int)(Math.random());
         assertEquals(calc.add(a,b),a+b);
     }
+
+    @Test
+    void subtract() {
+        int a = (int)(Math.random());
+        int b = (int)(Math.random());
+        assertEquals(calc.subtract(a,b),a-b);
+    }
 }
