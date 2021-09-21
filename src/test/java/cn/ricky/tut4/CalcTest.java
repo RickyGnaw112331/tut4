@@ -9,15 +9,15 @@ class CalcTest {
 
     @Test
     void add() {
-        int a = (int)(Math.random());
-        int b = (int)(Math.random());
+        int a = (int)(Math.random()*10);
+        int b = (int)(Math.random()*10);
         assertEquals(calc.add(a,b),a+b);
     }
 
     @Test
     void subtract() {
-        int a = (int)(Math.random());
-        int b = (int)(Math.random());
+        int a = (int)(Math.random()*10);
+        int b = (int)(Math.random()*10);
         assertEquals(calc.subtract(a,b),a-b);
     }
 }
